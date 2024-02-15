@@ -39,10 +39,6 @@ app.post("/sign_up", function (req, res) {
   return res.redirect("signup_success.html");
 });
 
-app.get("/signup_success.html, (req,res) => { 
-        res.sendFile("signup_success.html")
-        
-        })
 
 app
   .get("/", function (req, res) {
